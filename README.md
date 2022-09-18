@@ -19,3 +19,6 @@ Los potenciales clientes de este servicio pueden ser dos:
 
 ## ¿Por qué en la nube?
 Porque la potencia de procesamiento residiría en la nube en lugar de en el propio dispositivo del usuario, evitando que éste pueda tener problemas por tener un dispositivo con poca potencia de cómputo.
+
+### Configuraciones de git
+Para ver las configuraciones que he hecho de git haz [click aquí](Sesiones/objetivo-0.md)
