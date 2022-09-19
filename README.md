@@ -2,10 +2,9 @@
 
 Repositorio para el proyecto de la asignatura Infraestructura Virtual de la Universidad de Granada (2022/2023)
 
+---
 ## Problema a resolver
-Un *recruiter* de una empresa medianamente grande con cientos o miles de empleados tiene que leer cientos de currículms cuando en la empresa se hace una oferta de trabajo, buscando en cada uno de ellos las palabras claves importantes para la empresa que marcan la diferencia entre las personas que aplican al puesto.
-
-Esta puede ser una tarea muy agotadora y costosa a priori, ya que no hay límite en cuanto a número de personas que aplican al puesto.
+El problema reside en elegir de entre todas las personas que aplican a una oferta de trabajo quién/quienes son los más aptos para la empresa.
 
 ## Solución propuesta
 Crear un servicio en la nube que sea capaz de recolectar todos los currículums de todas las personas que aplican al puesto y que mediante un reconocimiento de palabras clave en cada uno poder aceptar sólo a aquellos que tengan ciertos criterios (o rechazar aquellos que no los cumplan) o ciertas palabras clave elegidas por la empresa, para así agilizarle mucho al *recruiter* la elección de aquellas personas que sean realmente interesantes para la empresa para poder solicitarles una entrevista más adelante.
@@ -23,5 +22,11 @@ La lógica de negocio se basa en que un reclutador de una empresa pueda a partir
 
 - Envío de currículums aceptados a una dirección de correo del reclutador o servidor de la empresa que solicita el servicio.
 
+También posibilita realizar estadísticas/informes sobre qué personas son las más propensas a aplicar a ciertos puestos de trabajo para así poder redactar de una mejor manera la oferta y de ese modo mejorar la efectividad en la búsqueda de nuevos empleados.
+
+Adende de ésto, se podrá automatizar las respuestas a los aplicantes sobre si su CV ha pasado el filtro o no y el por qué de ello, así como de un conjunto de fechas disponibles para poder concertar una entrevista a aquellos que sean aceptados.
+
+
+---
 ### Configuraciones de git
 Para ver las configuraciones que he hecho de git haz [click aquí](Sesiones/objetivo-0.md)
