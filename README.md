@@ -4,14 +4,15 @@ Repositorio para el proyecto de la asignatura Infraestructura Virtual de la Univ
 
 ---
 ## Problema a resolver
-El problema reside en elegir de entre todas las personas que aplican a una oferta de trabajo quién/quienes son los más aptos para la empresa.
+El tiempo que toma un *recruiter* en revisar y contestar a cada uno de los CVs que le llegan a la empresa para una oferta de trabajo suele ser mucho tiempo.
 
 ## Solución propuesta
-Crear un servicio en la nube que sea capaz de recolectar todos los currículums de todas las personas que aplican al puesto y que mediante un reconocimiento de palabras clave en cada uno poder aceptar sólo a aquellos que tengan ciertos criterios (o rechazar aquellos que no los cumplan) o ciertas palabras clave elegidas por la empresa, para así agilizarle mucho al *recruiter* la elección de aquellas personas que sean realmente interesantes para la empresa para poder solicitarles una entrevista más adelante.
+Crear un servicio en la nube que sea capaz de recolectar todos los currículums de todas las personas que aplican al puesto y que mediante un reconocimiento de palabras clave en cada uno poder aceptar sólo a aquellos que tengan ciertos criterios (o rechazar aquellos que no los cumplan) o ciertas palabras clave elegidas por la empresa, para así ahorrar mucho tiempo al *recruiter* en la elección de aquellas personas que sean realmente interesantes para la empresa para poder solicitarles una entrevista más adelante.
 
 Además es una solución muy flexible ya que en función de unas etiquetas específicas proporcionadas por la empresa se puede adaptar a las necesidades de ésta sin esfuerzo.
 
 ## ¿Por qué en la nube?
+
 La nube es una buena solución para éste servicio porque así no nos limitamos a desarrollar el producto para una sóla empresa, si no que se puede adaptar perfectamente a todas las empresas que quieran disfrutar de su uso, además de tener un coste más bajo que si fuese un software propio para una empresa específica.
 
 ## Lógica de negocio
