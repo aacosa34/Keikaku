@@ -39,6 +39,10 @@ Adende de ésto, se podrá automatizar las respuestas a los aplicantes sobre si 
 
 [Click aquí](docs/personas.md) para ver las personas que se ven afectadas por el uso de éste servicio.
 
+### Historias de usuario y milestones
+
+[Click aquí](docs/planteamiento.md) para ver las historias de usuarios y milestones.
+
 ---
 
 ### Configuraciones de git
