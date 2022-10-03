@@ -17,6 +17,7 @@
 
 - [[M1] Modelo para almacenar los datos personales contenidos en los CVs.](https://github.com/aacosa34/Keikaku/milestone/7)
 
-- [[M2] Método que busque en los currículums las características deseadas para el puesto.](https://github.com/aacosa34/Keikaku/milestone/2)
+- [[M2] Función/Método que busque en los currículums las características deseadas para el puesto y las devuelva.](https://github.com/aacosa34/Keikaku/milestone/2)
 
 - [[M3] Modelo para organizar los currículums ordenados por cantidad de palabras clave de mayor a menor](https://github.com/aacosa34/Keikaku/milestone/6)
+  > El modelo podría representarse a modo de clase, de forma que cada objeto de dicha clase contenga los datos de una persona en función de su currículum. Si fuese una clase, los datos personales tales como el email de contacto, nombre, apellidos, número de teléfono, distintas URL con sus perfiles en distintas redes sociales (github, twitter o linkedin entre otras). De ésta manera podríamos hacer operaciones con dichos datos al momento de buscar en su currículum y poder identificar a la persona y sus datos rápidamente accediendo a su objeto.
