@@ -15,9 +15,17 @@
 
 ## Milestones
 
-- [[M1] Modelo para almacenar los datos personales contenidos en los CVs.](https://github.com/aacosa34/Keikaku/milestone/7)
+- [[M1] Módulo que defina la estructura de datos para representar toda la información necesaria a manejar en el sistema.](https://github.com/aacosa34/Keikaku/milestone/7)
+  > Para éste sistema, las unidades de datos más importantes a manjear son los currículums y los requisitos necesarios para un puesto. Con éstos datos organizados podremos procesar los currículums para poder encontrar a las personas mejor cualificadas para el trabajo.
 
-- [[M2] Función/Método que busque en los currículums las características deseadas para el puesto y las devuelva.](https://github.com/aacosa34/Keikaku/milestone/2)
+- [[M2] Módulo que establezca la estructura de datos que defina qué hay que buscar en los currículums.](https://github.com/aacosa34/Keikaku/milestone/2)
+  > En primer lugar tendremos que definir la estructura de datos que va a contener las características a buscar en el currículum de todas las personas que quieran aplicar al puesto. Para ello almacenaremos dichos requisitos con una estructura de datos acorde a cómo se van a utilizar éstos, es decir, necistamos una estructura de datos de la que podamos añadir, visualizar y editar para hacerlo lo más flexible posible.
 
-- [[M3] Modelo para organizar los currículums ordenados por cantidad de palabras clave de mayor a menor](https://github.com/aacosa34/Keikaku/milestone/6)
-  > El modelo podría representarse a modo de clase, de forma que cada objeto de dicha clase contenga los datos de una persona en función de su currículum. Si fuese una clase, los datos personales tales como el email de contacto, nombre, apellidos, número de teléfono, distintas URL con sus perfiles en distintas redes sociales (github, twitter o linkedin entre otras). De ésta manera podríamos hacer operaciones con dichos datos al momento de buscar en su currículum y poder identificar a la persona y sus datos rápidamente accediendo a su objeto.
+- [[M3] Módulo que defina la estructura de datos que establezca qué información debe almacenarse de cada uno de los currículums.](https://github.com/aacosa34/Keikaku/milestone/6)
+  > Éste módulo debe contener todos los datos importantes de un currículum como pueden ser los datos personales (nombre, apellidos, fecha de nacimiento, por ej.), los datos de contacto (teléfono, email, redes sociales...) y características a destacar del currículum correspondientes a los criterios de la oferta de trabajo.
+
+- [[M4] Función que procese los currículums y organice los datos importantes para la oferta de empleo de los currículums.](https://github.com/aacosa34/Keikaku/milestone/8)
+  > Éste milestone relaciona los dos anteriores de modo que a partir de lo definido en M2 se hace una búsqueda en los currículums (en principio de formato arbitrario) y genera la estructura de datos para una persona de la forma en que se comenta en M3.
+
+- [[M5] Un API para M3 que permita visualizar los datos de contacto de aquellas personas mejor cualificadas.](https://github.com/aacosa34/Keikaku/milestone/9)
+  > A partir de los datos que conocemos sobre todos los currículums de las personas que aplican a la oferta de trabajo, implementar un API que devuelva (ordenados por cantidad de criterios definidos en M2 encontrados en los CVs) los datos de contacto de todos ellos.
