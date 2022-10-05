@@ -15,17 +15,14 @@
 
 ## Milestones
 
-- [[M1] Estructura de datos para representar toda la información necesaria a manejar en el sistema.](https://github.com/aacosa34/Keikaku/milestone/7)
-  > Para éste sistema, las unidades de datos más importantes a manjear son los currículums y los requisitos necesarios para un puesto. Con éstos datos organizados podremos procesar los currículums para poder encontrar a las personas mejor cualificadas para el trabajo.
-
-- [[M2] Estructura de datos que defina qué hay que buscar en los currículums.](https://github.com/aacosa34/Keikaku/milestone/2)
+- [[M1] Estructura de datos que defina qué hay que buscar en los currículums.](https://github.com/aacosa34/Keikaku/milestone/2)
   > En primer lugar tendremos que definir la estructura de datos que va a contener las características a buscar en el currículum de todas las personas que quieran aplicar al puesto. Para ello almacenaremos dichos requisitos con una estructura de datos acorde a cómo se van a utilizar éstos, es decir, necistamos una estructura de datos de la que podamos añadir, visualizar y editar para hacerlo lo más flexible posible.
 
-- [[M3] Clase que contenga la información que debe almacenarse de cada uno de los currículums.](https://github.com/aacosa34/Keikaku/milestone/6)
+- [[M2] Clase que contenga la información que debe almacenarse de cada uno de los currículums.](https://github.com/aacosa34/Keikaku/milestone/6)
   > Éste módulo debe contener todos los datos importantes de un currículum como pueden ser los datos personales (nombre, apellidos, fecha de nacimiento, por ej.), los datos de contacto (teléfono, email, redes sociales...) y características a destacar del currículum correspondientes a los criterios de la oferta de trabajo.
 
-- [[M4] Función que procese los currículums y organice los datos importantes para la oferta de empleo de los currículums.](https://github.com/aacosa34/Keikaku/milestone/8)
-  > Éste milestone relaciona los dos anteriores de modo que a partir de lo definido en M2 se hace una búsqueda en los currículums (en principio de formato arbitrario) y genera la estructura de datos para una persona de la forma en que se comenta en M3.
+- [[M3] Función que procese los currículums y organice los datos importantes para la oferta de empleo de los currículums.](https://github.com/aacosa34/Keikaku/milestone/8)
+  > Éste milestone relaciona los dos anteriores de modo que a partir de lo definido en M1 se hace una búsqueda en los currículums (en principio de formato arbitrario) y genera la estructura de datos para una persona de la forma en que se comenta en M2.
 
-- [[M5] Un API que permita visualizar a partir de M3 los datos de contacto de aquellas personas mejor cualificadas.](https://github.com/aacosa34/Keikaku/milestone/9)
-  > A partir de los datos que conocemos sobre todos los currículums de las personas que aplican a la oferta de trabajo, implementar un API que devuelva (ordenados por cantidad de criterios definidos en M2 encontrados en los CVs) los datos de contacto de todos ellos.
+- [[M4] Un API que permita visualizar a partir de M2 los datos de contacto de aquellas personas mejor cualificadas.](https://github.com/aacosa34/Keikaku/milestone/9)
+  > A partir de los datos que conocemos sobre todos los currículums de las personas que aplican a la oferta de trabajo, implementar un API que devuelva (ordenados por cantidad de criterios definidos en M1 encontrados en los CVs) los datos de contacto de todos ellos.
