@@ -2,12 +2,11 @@
 
 ## Historias de Usuario
 
-- [[HU01] Hortensia quiere encontrar a la persona adecuada para el puesto ofertado.](https://github.com/aacosa34/Keikaku/issues/7)
+- [[HU01] Hortensia quiere tener organizados los currículums.](https://github.com/aacosa34/Keikaku/issues/7)
 
-  > Hortensia es muy indecisa con la elección de la persona adecuada para un puesto de trabajo. Tiene muchos currículums y no sabe por cuál decidirse y quiere un punto de vista más objetivo.
+  > Hortensia es muy desordenada y siempre mezcla los currículums de distintas ofertas de trabajo, hecho que le lleva a meter la pata de vez en cuando aceptando o rechazando determinadas personas valiosas.
 
 - [[HU02] Hortensia quiere ahorrar tiempo revisando los CVs.](https://github.com/aacosa34/Keikaku/issues/3)
-
   > Hortensia pasa muchísimo tiempo revisando uno por uno cada uno de los CVs que le llegan a una oferta de empleo revisando que cumplan los criterios exigidos, y se le hace una tarea demasiado repetitiva y agotadora.
 
 - [[HU03] Hortensia quiere ahorrarse el tener que buscar el teléfono o email de contacto dentro de aquellos currículums que sean aceptados para agilizar el proceso de concertar las entrevistas.](https://github.com/aacosa34/Keikaku/issues/6)
@@ -15,14 +14,9 @@
 
 ## Milestones
 
-- [[M1] Estructura de datos que defina qué hay que buscar en los currículums.](https://github.com/aacosa34/Keikaku/milestone/2)
-  > En primer lugar tendremos que definir la estructura de datos que va a contener las características a buscar en el currículum de todas las personas que quieran aplicar al puesto. Para ello almacenaremos dichos requisitos con una estructura de datos acorde a cómo se van a utilizar éstos, es decir, necistamos una estructura de datos de la que podamos añadir, visualizar y editar para hacerlo lo más flexible posible.
+- [[M1] Módulo que defina la estructura de datos para almacenar los criterios de las ofertas de empleo y los currículums.](https://github.com/aacosa34/Keikaku/milestone/2)
 
-- [[M2] Clase que contenga la información que debe almacenarse de cada uno de los currículums.](https://github.com/aacosa34/Keikaku/milestone/6)
-  > Éste módulo debe contener todos los datos importantes de un currículum como pueden ser los datos personales (nombre, apellidos, fecha de nacimiento, por ej.), los datos de contacto (teléfono, email, redes sociales...) y características a destacar del currículum correspondientes a los criterios de la oferta de trabajo.
+- [[M2] Código de clase o clases que implemente/n la lógica de negocio necesaria para buscar en los currículums la información relevante en función de la oferta de empleo a la que va dirigido.](https://github.com/aacosa34/Keikaku/milestone/6)
 
-- [[M3] Función que procese los currículums y organice los datos importantes para la oferta de empleo de los currículums.](https://github.com/aacosa34/Keikaku/milestone/8)
-  > Éste milestone relaciona los dos anteriores de modo que a partir de lo definido en M1 se hace una búsqueda en los currículums (en principio de formato arbitrario) y genera la estructura de datos para una persona de la forma en que se comenta en M2.
-
-- [[M4] Un API que permita visualizar a partir de M2 los datos de contacto de aquellas personas mejor cualificadas.](https://github.com/aacosa34/Keikaku/milestone/9)
+- [[M3] Implementación de un API que permita visualizar a partir de M2 los datos contenidos en los currículums de aquella/s persona/s mejor cualificada/s.](https://github.com/aacosa34/Keikaku/milestone/9)
   > A partir de los datos que conocemos sobre todos los currículums de las personas que aplican a la oferta de trabajo, implementar un API que devuelva (ordenados por cantidad de criterios definidos en M1 encontrados en los CVs) los datos de contacto de todos ellos.
