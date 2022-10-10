@@ -11,7 +11,7 @@ Repositorio para el proyecto de la asignatura Infraestructura Virtual de la Univ
 
 ## Problema a resolver
 
-El tiempo que toma un _recruiter_ en revisar y contestar a cada uno de los CVs que le llegan a la empresa para una oferta de trabajo suele ser de forma manual. También es dificil priorizar a determinadas personas frente a otras debido a que cada _recruiter_ tiene su punto de vista.
+El problema que se quiere resolver con el sistema planteado es reducir el tiempo que toma un _recruiter_ en revisar y contestar a cada uno de los CVs que le llegan a la empresa para una oferta de trabajo, ya que suele ser de forma manual y hay que revisar uno a uno las características de cada currículum además de pensar si esa persona es válida para el trabajo. También es dificil priorizar a determinadas personas frente a otras debido a que cada _recruiter_ tiene su punto de vista, por lo tanto se quiere obtener un punto de vista un poco más objetivo.
 
 ## Solución propuesta
 

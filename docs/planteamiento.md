@@ -2,15 +2,11 @@
 
 ## Historias de Usuario
 
-- [[HU01] Hortensia quiere tener organizados los currículums.](https://github.com/aacosa34/Keikaku/issues/7)
+- [[HU01] Hortensia quiere encontrar a la persona adecuada para el puesto ofertado en poco tiempo.](https://github.com/aacosa34/Keikaku/issues/7)
+  > Hortensia es muy indecisa con la elección de la persona adecuada para un puesto de trabajo. Tiene muchos currículums y no sabe por cuál decidirse. Quiere un punto de vista más objetivo. Esto le lleva a que dedique demasiado tiempo pensando quíen es mejor candidato o si el candidato que está revisando cumple los requisitos mínimos para ser contratado.
 
-  > Hortensia es muy desordenada y siempre mezcla los currículums de distintas ofertas de trabajo, hecho que le lleva a meter la pata de vez en cuando aceptando o rechazando determinadas personas valiosas.
-
-- [[HU02] Hortensia quiere ahorrar tiempo revisando los CVs.](https://github.com/aacosa34/Keikaku/issues/3)
-  > Hortensia pasa muchísimo tiempo revisando uno por uno cada uno de los CVs que le llegan a una oferta de empleo revisando que cumplan los criterios exigidos, y se le hace una tarea demasiado repetitiva y agotadora.
-
-- [[HU03] Hortensia quiere ahorrarse el tener que buscar el teléfono o email de contacto dentro de aquellos currículums que sean aceptados para agilizar el proceso de concertar las entrevistas.](https://github.com/aacosa34/Keikaku/issues/6)
-  > Hortensia pierde demasiado tiempo buscando dentro de cada currículum los datos de contacto de cada posible candidato, tarea que también se le hace bastante repetitiva. Además, cada persona tiene un diseño y distribución de los datos distinto en su currículum, por lo que tiene que hacer un esfuerzo buscando dónde se encuentran estos datos.
+- [[HU02] Hortensia quiere ahorrarse el tener que buscar el teléfono o email de contacto dentro de aquellos currículums que sean aceptados para agilizar el proceso de concertar las entrevistas.](https://github.com/aacosa34/Keikaku/issues/6)
+  > Hortensia pierde también demasiado tiempo buscando dentro de cada currículum los datos de contacto de cada posible candidato, tarea que también se le hace bastante repetitiva. Además, cada persona tiene un diseño y distribución de los datos distinto en su currículum, por lo que tiene que hacer un esfuerzo buscando dónde se encuentran estos datos.
 
 ## Milestones
 
