@@ -1,5 +1,21 @@
-enum nivelIngles {A1,A2,B1,B2,C1,C2};
-enum nivelEstudios {Primara,Secundaria,Bachillerato,FP,Grado,Master}
+enum nivelIngles {
+  A1 = "A1",
+  A2 = "A2",
+  B1 = "B1",
+  B2 = "B2",
+  C1 = "C1",
+  C2 = "C2"
+};
+
+
+enum nivelEstudios {
+  Primaria = "primaria",
+  Secundaria = "secundaria",
+  Bachillerato = "bachillerato",
+  FP = "fp",
+  Grado = "grado",
+  Master = "master"
+};
 
 class Curriculum extends BaseData{
 
