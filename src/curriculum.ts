@@ -17,7 +17,7 @@ enum nivelEstudios {
   Master = "master"
 };
 
-class Curriculum extends BaseData{
+export class Curriculum extends BaseData{
 
   private palabrasClave: string[];
   private ingles:nivelIngles;
