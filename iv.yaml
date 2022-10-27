@@ -1,0 +1,10 @@
+lenguaje : TypeScript
+
+objeto valor:
+  - src/curriculum.ts
+
+entidad:
+  - src/basic_data.ts
+  - src/recursos_humanos.ts
+  - src/oferta.ts
+  
