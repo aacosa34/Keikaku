@@ -19,16 +19,14 @@ enum nivelEstudios {
 
 export class Curriculum{
 
-  private nombre: string;
-  private apellidos: string;
+  private nombreApellidos: string;
   private fechaNacimiento: Date;
   private palabrasClave: string[];
   private ingles:nivelIngles;
   private estudios:nivelEstudios;
 
-  constructor(nombre:string,apellidos:string,fechaNacimiento:Date,palabrasClave:string[],ingles:nivelIngles,estudios:nivelEstudios){
-    this.nombre = nombre;
-    this.apellidos = apellidos;
+  constructor(nombreApellidos:string,fechaNacimiento:Date,palabrasClave:string[],ingles:nivelIngles,estudios:nivelEstudios){
+    this.nombreApellidos = nombreApellidos;
     this.fechaNacimiento = fechaNacimiento;
     this.palabrasClave = palabrasClave;
     this.ingles = ingles;
