@@ -2,15 +2,13 @@ import {Curriculum} from "./curriculum";
 
 
 class Oferta{
-  private nombre: string;
-  private descripcion: string;
-  private fechaCreacion: Date;
+
+  /* Las palabrasClave son los requisitos mínimos que debe tener un currículum para no ser eliminado del sistema */
+  private palabrasClave: string[];
   private curriculums: Curriculum[];
 
-  constructor(nombre: string, descripcion: string,fechaCreacion: Date,curriculums:Curriculum[]) {
-    this.nombre = nombre;
-    this.descripcion = descripcion;
-    this.fechaCreacion = fechaCreacion;
+  constructor(curriculums:Curriculum[],palabrasClave: string[]) {
     this.curriculums = curriculums;
+    this.palabrasClave = palabrasClave;
   }
 }
