@@ -1,14 +1,14 @@
-import {Curriculum} from "./curriculum";
+import {Curriculum,nivelEstudios,nivelIngles} from "./curriculum";
 
 
 class Oferta{
 
-  /* Las palabrasClave son los requisitos mínimos que debe tener un currículum para no ser eliminado del sistema */
-  private palabrasClave: string[];
+  
+  private requisitosMinimos: Curriculum;
   private curriculums: Curriculum[];
 
-  constructor(curriculums:Curriculum[],palabrasClave: string[]) {
+  constructor(curriculums:Curriculum[],carnetConducir:boolean,ingles:nivelIngles,estudios:nivelEstudios,aptitudes:string[],experiencia:string) {
+    this.requisitosMinimos = new Curriculum(carnetConducir,ingles,estudios,aptitudes,experiencia);
     this.curriculums = curriculums;
-    this.palabrasClave = palabrasClave;
   }
 }
