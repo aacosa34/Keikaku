@@ -57,6 +57,7 @@ export class Curriculum{
   getIngles():nivelIngles{
     return this.ingles;
   }
+  
 
 }
 

@@ -11,4 +11,5 @@ class Oferta{
     this.requisitosMinimos = new Curriculum(ingles,estudios,aptitudes,experiencia);
     this.curriculums = curriculums;
   }
+  
 }
