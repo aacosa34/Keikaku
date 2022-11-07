@@ -21,17 +21,15 @@ export enum nivelEstudios {
 
 export class Curriculum{
   
-  private carnetConducir:boolean;
   private ingles:nivelIngles;
   private estudios:nivelEstudios;
   private aptitudes:string[];
   private experiencia:number;
 
 
-  constructor(carnetConducir:boolean,ingles:nivelIngles,estudios:nivelEstudios,aptitudes:string[],experiencia:string){
+  constructor(ingles:nivelIngles,estudios:nivelEstudios,aptitudes:string[],experiencia:string){
     this.ingles = ingles;
     this.estudios = estudios;
-    this.carnetConducir = carnetConducir;
     this.aptitudes = aptitudes;
     this.experiencia = this.obtenerExperiencia(experiencia);
   }
@@ -50,10 +48,6 @@ export class Curriculum{
 
   getAptitudes():string[]{
     return this.aptitudes;
-  }
-
-  getCarnetConducir():boolean{
-    return this.carnetConducir;
   }
 
   getEstudios():nivelEstudios{
