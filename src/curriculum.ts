@@ -10,13 +10,21 @@ interface Estudio{
   estudio: string;
 }
 
+interface Idioma{
+  idioma : string;
+  nivel : string;
+}
+
 export class Curriculum{ 
   private experiencias : Experiencia[];
   private estudios : Estudio[];
+  private idiomas : Idioma[];
 
-  constructor(exp : Experiencia[], est : Estudio[]){
+  constructor(exp : Experiencia[], est : Estudio[],idiomas : Idioma[]){
     this.experiencias = exp;
     this.estudios = est;
+    this.idiomas =idiomas;
   }
+  
 }
 
