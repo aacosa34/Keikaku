@@ -4,11 +4,19 @@ interface Experiencia{
   Puesto: string;
 }
 
+interface Estudio{
+  fechaInicio: Date;
+  fechaFin: Date;
+  estudio: string;
+}
+
 export class Curriculum{ 
   private experiencias : Experiencia[];
+  private estudios : Estudio[];
 
-  constructor(exp : Experiencia[]){
+  constructor(exp : Experiencia[], est : Estudio[]){
     this.experiencias = exp;
+    this.estudios = est;
   }
 }
 
