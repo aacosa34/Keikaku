@@ -1,29 +1,42 @@
-interface Experiencia{
-  fechaInicio: Date;
-  fechaFin: Date;
-  Puesto: string;
+enum puestoTrabajo{
+  Programador = "Programador",
+  DesarrolladorSoftware = "Desarrollador Software",
+  IngenieroDevOps = "Ingeniero DevOps",
+  ExpertoSeguridad = "Experto Seguridad Informática",
+  ExpertoRedes = "Experto en Redes",
+  DataAnalist = "Data Analist"
 }
 
-interface Estudio{
-  fechaInicio: Date;
-  fechaFin: Date;
-  estudio: string;
+enum nivelIdioma{
+  A1 = "A1",
+  A2 = "A2",
+  B1 = "B1",
+  B2 = "B2",
+  C1 = "C1",
+  C2 = "C2"
 }
 
-interface Idioma{
-  idioma : string;
-  nivel : string;
+type Experiencia={
+  [key: string]: puestoTrabajo|number;
+  puesto : puestoTrabajo;
+  tiempo: number;
+}
+
+type Idioma={
+  [key: string]: string|nivelIdioma;
+  idioma: string;
+  nivel: nivelIdioma;
 }
 
 export class Curriculum{ 
   private experiencias : Experiencia[];
-  private estudios : Estudio[];
+  private estudios : string[];
   private idiomas : Idioma[];
 
-  constructor(exp : Experiencia[], est : Estudio[],idiomas : Idioma[]){
+  constructor(exp : Experiencia[], est : string[],idiomas : Idioma[]){
     this.experiencias = exp;
     this.estudios = est;
-    this.idiomas =idiomas;
+    this.idiomas = idiomas;
   }
   
 }
