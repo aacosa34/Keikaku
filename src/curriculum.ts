@@ -4,7 +4,17 @@ enum puestoTrabajo{
   IngenieroDevOps = "Ingeniero DevOps",
   ExpertoSeguridad = "Experto Seguridad Informática",
   ExpertoRedes = "Experto en Redes",
-  DataAnalyst = "Data Analyst"
+  DataAnalyst = "Data Analyst",
+  ConsultorCloud = "Consultor Cloud",
+  ChiefDigitalOfficer = "Chief Digital Officer",
+  ExpertoIA = "Experto Inteligencia Artificial",
+  DesarrolladorFullStack = "Desarrollador Full Stack",
+  DesarrolladorBackend = "Desarrollador Backend",
+  DesarrolladorFrontend = "Desarrollador Frontend",
+  ContentManager = "Content Manager",
+  ChiefInformationOfficer = "Chief Information Officer",
+  CustomerSuccessManager = "Customer Success Manager",
+
 }
 
 enum nivelIdioma{
