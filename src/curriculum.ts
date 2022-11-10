@@ -4,7 +4,7 @@ enum puestoTrabajo{
   IngenieroDevOps = "Ingeniero DevOps",
   ExpertoSeguridad = "Experto Seguridad Informática",
   ExpertoRedes = "Experto en Redes",
-  DataAnalist = "Data Analist"
+  DataAnalyst = "Data Analyst"
 }
 
 enum nivelIdioma{
