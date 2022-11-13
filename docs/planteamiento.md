@@ -1,22 +1,40 @@
 # Planteamiento del proyecto
 
-## Historias de Usuario
+## Problema a resolver
 
-- [[HU01] Hortensia quiere encontrar al candidato que más se ajuste al perfil del puesto ofertado de la forma más simple y rápida posible.](https://github.com/aacosa34/Keikaku/issues/7)
-  > Hortensia quiere tener la mínima interacción con los PDF de los currículums porque se lía ordenando éstos. Por tanto le gustaría ver de un simple vistazo sólo la información de los candidatos que fuesen más afines (es decir, que más se parezcan a lo especificado en cada sección de la oferta) con la oferta de empleo sin tener que manejarse con los ficheros y así evitar perder el tiempo con aquellos currículums que no cumplan el formato estándar exigido por la oferta ni sus requerimientos mínimos.
+El problema que se quiere resolver con el sistema planteado es reducir el tiempo que toma un _recruiter_ en revisar y contestar a cada uno de los CVs que le llegan a la empresa para una oferta de trabajo, ya que suele ser de forma manual y hay que revisar uno a uno las características de cada currículum además de pensar si esa persona es válida para el trabajo. También es dificil priorizar a determinadas personas frente a otras debido a que cada _recruiter_ tiene su punto de vista, por lo tanto se quiere obtener un punto de vista un poco más objetivo.
 
-- [[HU02] Hortensia quiere ahorrarse el tener que buscar el teléfono o email de contacto dentro de aquellos currículums que sean aceptados para agilizar el proceso de concertar las entrevistas.](https://github.com/aacosa34/Keikaku/issues/6)
-  > Hortensia pierde también demasiado tiempo buscando dentro de cada currículum los datos de contacto de cada posible candidato, tarea que también se le hace bastante repetitiva. Además, cada persona tiene un diseño y distribución de los datos distinto en su currículum, por lo que tiene que hacer un esfuerzo buscando dónde se encuentran estos datos.
+## Solución propuesta
 
-## Milestones
+Crear un servicio en la nube que sea capaz de recolectar todos los currículums de las personas que aplican al puesto y poder aceptar aquellos que tengan ciertos criterios (o rechazar aquellos que no los cumplan) o ciertas palabras clave elegidas por la empresa, para así ahorrar mucho tiempo al _recruiter_ y simplificar la elección de aquellas personas que sean realmente interesantes para la empresa y así poder solicitarles una entrevista más adelante.
 
-- [[M0] Implementación de las estructuras de datos para gestionar los currículums y las ofertas de trabajo](https://github.com/aacosa34/Keikaku/milestone/2)
-  > Con este milstone interno se pretende crear la implementación de las clases necesarias para la represenación del modelo del problema que compilen correctamente. 
-  > En este milestone se debe crear la implementación del modelo referente a:
-  > - Los curriculums
-  > - Las ofertas de empleo
+También se podría establecer un orden específico de prioridades a los CV para que, en el caso de que alguna persona de los que habían sido seleccionados no obtiene el trabajo, exista una prioridad entre los CV que no llegaron a aceptarse.
 
-- [[M1] Código de clase o clases que implemente/n la lógica de negocio necesaria para buscar en los currículums la información relevante en función de la oferta de empleo a la que va dirigido.](https://github.com/aacosa34/Keikaku/milestone/6)
+Además es una solución muy flexible ya que en función de la empresa o de la oferta se puede adaptar a las necesidades de ésta sin esfuerzo.
 
-- [[M2] Implementación de un API que permita obtener los datos contenidos en los currículums de aquella/s persona/s mejor cualificada/s.](https://github.com/aacosa34/Keikaku/milestone/9)
-  > A partir de los datos que conocemos sobre todos los currículums de las personas que aplican a la oferta de trabajo, implementar un API que devuelva (ordenados por cantidad de criterios definidos en M1 encontrados en los CVs) los datos de contacto de todos ellos.
+## ¿Por qué en la nube?
+
+La nube es una buena solución para éste servicio, en primer lugar, porque podríamos tener almacenados en la nube todos aquellos CVs que se envían en las solicitudes a la oferta.
+
+Además, es una solución donde no nos limitamos a desarrollar el producto para una sóla empresa, si no que se puede adaptar perfectamente a todas las empresas que quieran disfrutar de su uso, además de tener un coste más bajo que si fuese un software propio para una empresa específica.
+
+## Lógica de negocio
+
+La lógica de negocio se basa en que un reclutador de una empresa pueda a partir de unos intereses dados, filtrar entre todos los currículums recibidos por la empresa y pueda símplemente centrarse en aquellos que tienen un potencial para la empresa de una forma sencilla.
+
+También posibilita realizar estadísticas/informes sobre qué personas son las más propensas a aplicar a ciertos puestos de trabajo para así poder redactar de una mejor manera la oferta y de ese modo mejorar la efectividad en la búsqueda de nuevos empleados.
+
+Adende de ésto, se podrá automatizar las respuestas a los aplicantes sobre si su CV ha pasado el filtro o no y el por qué de ello, así como de un conjunto de fechas disponibles para poder concertar una entrevista a aquellos que sean aceptados.
+
+### Personas involucradas en el servicio
+
+[Click aquí](personas.md) para ver las personas que se ven afectadas por el uso de éste servicio.
+
+### Configuraciones de git
+
+Para ver las configuraciones que he hecho de git haz [click aquí](objetivos/objetivo-0.md).
+
+## Historias de Usuario y Milestones del proyecto
+
+[Click aquí](historias-de-usuario.md) para ver las historias de usuario.
+[Click aquí](milestones.md) para ver los milestones.
