@@ -4,7 +4,11 @@ Repositorio para el proyecto de la asignatura Infraestructura Virtual de la Univ
 
 ## Uso de las herramientas
 
-TODO
+Comprobacion de la sintaxis
+
+```bash
+bun run check
+```
 
 ## Documentación sobre el proyecto
 
