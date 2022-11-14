@@ -6,13 +6,7 @@
     "tsc": "tsc src/*.ts --target esnext --noEmit"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.42.1",
     "bun-types": "0.2.2",
-    "eslint": "^8.27.0",
-    "eslint-config-standard-with-typescript": "^23.0.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-n": "^15.5.1",
-    "eslint-plugin-promise": "^6.1.1",
     "typescript": "^4.8.4"
   }
 }
