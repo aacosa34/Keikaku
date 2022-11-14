@@ -2,7 +2,7 @@
 
 La inmensa mayoría de los gestores de dependencias más usados para proyectos de JavaScript/TypeScript son compatibles entre sí y todos usan en general los mismos paquetes. Por tanto, y por experiencia propia, como criterio de selección del gestor de dependencias se va a tener en cuenta la velocidad a la que instala los paquetes y la facilidad de añadir/eliminar paquetes y gestionar sus veriones. Y como criterio secundario, pero también muy importante, es que se mantenga actualizado.
 
-Como gestor de dependencias tenemos varias opciones conocidas:
+Teniendo estos criterios en cuenta, como gestores de dependencias tenemos varias opciones conocidas:
 
 - El gestor de paquetes de Node.js conocido como __npm__: es uno de los gestores de paquetes más extendidos y más usados en proyectos de JS. Al ser uno de los gestores de paquetes/dependencias más usados nos proporciona una gran cantidad de paquetes de código abierto a nuestra disposición. Es de código abierto y sigue siendo actualizado a día de hoy (su ultima actualización al momento de escribir esto fue hace 5 días).
 
