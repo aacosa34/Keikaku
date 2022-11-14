@@ -2,9 +2,8 @@
   "name": "keikaku",
   "version": "0.3.0",
   "scripts": {
-    "check": "bun run linting",
-    "linting": "eslint . --ext .ts",
-    "linting:fix": "eslint . --ext .ts --fix"
+    "check": "bun run tsc",
+    "tsc": "tsc src/*.ts --target esnext --noEmit"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.42.1",
