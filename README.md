@@ -2,6 +2,10 @@
 
 Repositorio para el proyecto de la asignatura Infraestructura Virtual de la Universidad de Granada (2022/2023)
 
+## Instalación
+
+Para instalar _bun_ seguiremos las instrucciones de la [página oficial](https://bun.sh/).
+
 ## Uso de las herramientas
 
 Para comprobar que la sintaxis es correcta:
