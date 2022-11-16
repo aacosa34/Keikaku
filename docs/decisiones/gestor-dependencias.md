@@ -1,15 +1,15 @@
 # Elección del gestor de dependencias
 
-La inmensa mayoría de los gestores de dependencias más usados para proyectos de JavaScript/TypeScript son compatibles entre sí y todos usan en general los mismos paquetes. Por tanto, y por experiencia propia, como criterio de selección del gestor de dependencias se va a tener en cuenta la velocidad a la que instala los paquetes y la facilidad de añadir/eliminar paquetes y gestionar sus veriones. Y como criterio secundario, pero también muy importante, es que se mantenga actualizado.
+La inmensa mayoría de los gestores de dependencias más usados para proyectos de JavaScript/TypeScript son compatibles entre sí. Por tanto, y por experiencia propia, como criterio de selección del gestor de dependencias se va a tener en cuenta la velocidad a la que instala dependencias y la facilidad de añadir/eliminar estas dependencias y gestionar sus veriones. Y como criterio secundario, pero también muy importante, es que se mantenga actualizado.
 
 Teniendo estos criterios en cuenta, como gestores de dependencias tenemos las siguientes:
 
-- __npm__: es el gestor de paquetes por defecto de Node.js. Es el gestor de paquetes más utilizado sobre todo en proyectos de JavaScript. Permite definir la versión específica que se necesita de un determinado paquete para que funcione el sistema y pueden gestionarse (actualizar, borrar, instalar,...) los paquetes desde la línea de comandos. Usa un fichero `package.json` donde se le indica la ruta de las dependencias instaladas dentro de la carpeta `node_modules`. También nos permite diferenciar entre dependencias de producción y dependencias de desarrollo
+- __npm__: Es bastante lento instalando paquetes. En cuanto a su mantenimiento, es un proyecto de código abierto y su última versión fue lanzada hace 7 días.
 
-- __pnpm__: funciona igual que npm pero reutilizando una instalación de una versión específica de un paquete si se usa en varios proyectos diferentes. Esto permite que la inicialización de un proyecto sea mucho más rapida. Para éste proyecto no me supone una mejora determinante con respecto a lo que ofrece npm ya que no me va a ser necesaria.
+- __pnpm__: Mejora la velocidad con respecto a _npm_ (hasta el doble de rápido). También es un proyecto de código abierto que actualmente se mantiene en constante desarrollo (se hizo un release hace 17 min cuando se está escribiendo esto).
 
-- __yarn__: es una alternativa más rapida que pnpm con un funcionamiento similar, pero para este proyecto no son unas mejoras demasiado considerables como para elegirlo.
+- __yarn__: es una alternativa más lenta que pnpm. Es un proyecto de código abierto al igual que las dos opciones anteriores pero se actualiza menos frecuentemente, siendo su último commit el día 5 de septiembre de este año.
 
-- __bun__: es un gestor de paquetes que está orientado a que la instalación de paquetes sea lo más rápida posible. Es el gestor de paquetes que mejor rendimiento saca en comparación con yarn, npm y pnpm. Es un gestor de dependencias compatible con npm, luego se usa igual que los anteriores mencionados. Se usará bun debido a la característica de la velocidad.
+- __bun install__: es el gestor de dependencias del runtime _bun_ que está orientado a que la instalación de dependencias sea lo más rápida posible. Tiene un mejor rendimiento en comparación con yarn, npm y pnpm. Es compatible con npm, luego se usa igual que los anteriores mencionados. Es un proyecto de código abierto y sigue manteniendose actualizado a día de hoy (su última release fue hace 20 días).
 
-Usaré por tanto __bun__ ya que ofrece la mejor velocidad de las opciones mencionadas y además al ser un proyecto relativamente nuevo de código abierto, se actualiza regularmente.
+Todos añaden/eliminan dependencias con la misma facilidad mediante la línea de comandos (todas usan add/remove menos npm que usa install/uninstall para ello). Viendo la cadencia con la que se actualiza _yarn_ queda descartada. Nos quedaría _npm_, _pnpm_ y _bun install_. De estas tres voy a escoger la que más velocidad tiene a la hora de instalar las dependencias de un proyecto, que en este caso es __bun install__.
