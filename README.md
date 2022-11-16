@@ -10,12 +10,6 @@ Para comprobar que la sintaxis es correcta:
 bun run check
 ```
 
-Para arreglar los fallos de sintaxis automáticamente:
-
-```bash
-bun run linting:fix
-```
-
 ## Documentación sobre el proyecto
 
 [Click aquí](docs/planteamiento.md) para ver el problema a resolver por el sistema.
