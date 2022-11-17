@@ -4,10 +4,16 @@ Repositorio para el proyecto de la asignatura Infraestructura Virtual de la Univ
 
 ## Uso de las herramientas
 
-Comprobacion de la sintaxis
+Para comprobar que la sintaxis es correcta:
 
 ```bash
 bun run check
+```
+
+Para arreglar los fallos de sintaxis automáticamente:
+
+```bash
+bun run linting:fix
 ```
 
 ## Documentación sobre el proyecto

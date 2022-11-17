@@ -3,7 +3,8 @@
   "version": "0.3.0",
   "scripts": {
     "check": "bun run linting",
-    "linting": "eslint . --ext .ts"
+    "linting": "eslint . --ext .ts",
+    "linting:fix": "eslint . --ext .ts --fix"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.42.1",
