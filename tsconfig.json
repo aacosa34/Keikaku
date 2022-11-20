@@ -1,16 +1,12 @@
 {
     "compilerOptions": {
-        "lib": [
-            "ESNext"
-        ],
-        "module": "esnext",
-        "target": "esnext",
-        "moduleResolution": "node",
-
+        "target": "ESNext",
+        "module": "ESNext",
         "strict": true,
-        // "bun-types" is the important part
-        "types": [
-            "bun-types"
-        ]
-    }
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true
+    },
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "display": "Recommended"
 }
