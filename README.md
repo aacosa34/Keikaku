@@ -4,14 +4,20 @@ Repositorio para el proyecto de la asignatura Infraestructura Virtual de la Univ
 
 ## Instalación
 
-Para instalar _bun_ seguiremos las instrucciones de la [página oficial](https://bun.sh/).
+Para poder inicializar el proyecto, es necesario tener instalado [pnpm](https://pnpm.io/installation).
+
+Una vez instalado ejecutar:
+
+```bash
+pnpm install
+```
 
 ## Uso de las herramientas
 
 Para comprobar que la sintaxis es correcta:
 
 ```bash
-bun run check
+pnpm run check
 ```
 
 ## Documentación sobre el proyecto
