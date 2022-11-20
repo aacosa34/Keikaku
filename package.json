@@ -1,12 +1,10 @@
 {
-  "name": "keikaku",
-  "version": "0.3.0",
-  "scripts": {
-    "check": "bun run syntax",
-    "syntax": "tsc src/*.ts --target esnext --noEmit"
-  },
-  "dependencies": {
-    "bun-types": "0.2.2",
-    "typescript": "^4.8.4"
-  }
+	"name": "keikaku",
+	"version": "1.0.0",
+	"scripts": {
+		"check": "tsc src/*.ts --target esnext --noEmit"
+	},
+	"dependencies": {
+		"typescript": "^4.9.3"
+	}
 }
