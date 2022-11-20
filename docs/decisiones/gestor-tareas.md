@@ -1,23 +1,17 @@
 # Elección del gestor de tareas
 
-Para la elección del gestor de tareas tendré en cuenta:
+Para la elección del gestor de tareas tendré en cuenta la valoración que tienen las siguientes herramientas en [Snyk Advisor](https://snyk.io/advisor/), la cual representa la popularidad, el mantenimiento, la seguridad y el grado de actividad de la comunidad:
 
-- que se use o se recomiende su uso para TypeScript o JavaScript.
+- [__grunt__](https://snyk.io/advisor/npm-package/grunt): tiene una nota de 85 debido a que hay poca actividad reciente en su repositorio de github. No se conocen problemas de seguridad recientes, es bastante conocido y tiene una comunidad activa.
 
-- que se mantenga actualizado regularmente a día de hoy.
+- [__gulp__](https://snyk.io/advisor/npm-package/gulp): tiene una nota de 79. Esta nota se debe a que necesita una revisión de seguridad y a que el último commit de su repositorio de github fue hace un año (hace 4 de su última release). Tanto en popularidad como en comunidad tiene buena valoracion por seguir siendo uno de los gestores de tareas más usados a día de hoy.
 
-- que si puedo limitarme a usar el mínimo número de dependencias posible, mejor.
+Voy a considerar en esta lista también algunos de gestores de dependencias que pueden utilizarse como gestores de tareas:
 
-- su dificultad en el aprendizaje.
+- [__npm__](https://snyk.io/advisor/npm-package/npm): tiene un 100 en valoración. No se conocen fallos de seguridad actuales, muy popular, mantenido (hace 4 días de su última release) y tiene una comunidad activa.
 
-- su rendimiento
+- [__yarn__](https://snyk.io/advisor/npm-package/yarn): tiene un 85 de nota debido a que su última release es de hace 6 meses. En el resto de parámetros es perfecto.
 
-Existen, entre otros muchos, los siguientes gestores de tareas:
+- [__pnpm__](https://snyk.io/advisor/npm-package/pnpm): tiene un 100. Al igual que npm, su última release fue hace 4 días.
 
-- __grunt__/__gulp__: gestores de tareas en los que se pueden automatizar tareas con el minimo esfuerzo en un archivo de configuración en formato JavaScript. Son bastante similares en cuanto a rendimiento. Hay que instalarlos como dependencia del proyecto.
-
-- __yarn__/__npm__/__bun__: son gestores de paquetes/dependencias pero también pueden usarse como gestores de tareas mediante la declaración de una clave "script" en el fichero `package.json`, por lo tanto es muy simple, fácil y rápido de usar. Permite paralelizar tareas con el fin de maximizar la utilización de recursos y permite una gran escalabilidad.
-
-- __make__: es un gestor de tareas con muy buen rendimiento en el que para declarar las tareas usa la sintaxis de bash, lo cual hace que su uso sea muy cómodo.
-
-Todos los gestores de tareas mencionados son mantenidos con cierta regularidad Entre todos estos descarto _make_ por no ser el uno de los recomendados/usados regularmente para un proyecto de JavaScript o TypeScript. _Gulp_ o _grunt_ se suelen recomendar normalmente para un proyecto de JS/TS por tener buen rendimiento, pero teniendo en cuenta que bun es compatible con npm, que npm puede usarse como un task runner bastante completo para este proyecto. que si uso _npm_ no necesitaré instalar más dependencias adicionales como sí tendría que hacer con _grunt_ o _gulp_ y además de que su curva de aprendizaje es bastante plana, me voy a decantar por usar __npm__ como gestor de tareas.
+De los gestores de tareas mencionados, la mejor nota la tiene _grunt_. Considerando también los gestores de dependencias que he comentado, tendrían mejor nota _pnpm_ y _npm_. Entre un gestor de tareas específico y gestionar tareas simples con un gestor de dependencias, lo suyo sería usar el gestor específico. Ahora bien, teniendo en cuenta el proyecto que voy a realizar y la elección tomada con respecto al gestor de dependencias, podríamos usar _pnpm_ para ambas cosas ya que no realizaremos tareas demasiado complejas que requieran de funcionalidades muy específicas que sólo un gestor de tareas nos proporcione. Por tanto, _mi elección será usar __pnpm__ como gestor de tareas_.
