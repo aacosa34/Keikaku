@@ -4,4 +4,4 @@ entidad: src/oferta.ts
 
 automatizar: 
   fichero: package.json
-  orden: bun run
+  orden: pnpm run check
