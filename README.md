@@ -22,12 +22,15 @@ pnpm run check
 
 ## Documentación sobre el proyecto
 
-[Click aquí](docs/planteamiento.md) para ver el problema a resolver por el sistema.
-[Click aquí](docs/personas.md) para ver las personas involucradas en el proyecto.
-[Click aquí](docs/historias-de-usuario.md) para ver las historias de usuario.
-[Click aquí](docs/milestones.md) para ver los milestones a llevar a cabo.
+- [Problema a resolver](docs/planteamiento.md).
+
+- [Personas involucradas en el proyecto](docs/personas.md).
+
+- [Historias de usuario](docs/historias-de-usuario.md).
+
+- [Milestones](docs/milestones.md).
 
 ## Toma de decisiones
 
-[Click aquí](docs/decisiones/gestor-dependencias.md) para ver la toma de decisones sobre el gestor de dependencias.
-[Click aquí](docs/decisiones/gestor-tareas.md) para ver la toma de decisones sobre el gestor de tareas.
+[Elección del gestor de dependencias](docs/decisiones/gestor-dependencias.md).
+[Elección del gestor de tareas](docs/decisiones/gestor-tareas.md).
