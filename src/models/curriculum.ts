@@ -26,13 +26,13 @@ export enum nivelIdioma{
   C2 = "C2"
 }
 
-export type Experiencia={
+type Experiencia={
   [key: string]: puestoTrabajo|number;
   puesto : puestoTrabajo;
   tiempo: number;
 }
 
-export type Idioma={
+type Idioma={
   [key: string]: string|nivelIdioma;
   idioma: string;
   nivel: nivelIdioma;
@@ -48,18 +48,5 @@ export class Curriculum{
     this.estudios = est;
     this.idiomas = idiomas;
   }
-
-  public getExperiencias(): Experiencia[]{
-    return this.experiencias;
-  }
-
-  public getEstudios(): string[]{
-    return this.estudios;
-  }
-
-  public getIdiomas(): Idioma[]{
-    return this.idiomas;
-  }
-  
 }
 
