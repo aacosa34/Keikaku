@@ -1,6 +1,6 @@
 import { Curriculum } from "./curriculum";
 
-class Oferta{
+export class Oferta{
   private curriculums: Curriculum[];
   private requerimientosMinimos: Curriculum;
 
