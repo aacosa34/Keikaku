@@ -17,7 +17,15 @@ pnpm install
 Para comprobar que la sintaxis es correcta:
 
 ```bash
-pnpm run check
+pnpm check
+```
+
+## Test
+
+Los test se ejecutan con el siguiente comando:
+
+```bash
+pnpm test
 ```
 
 ## Documentación sobre el proyecto

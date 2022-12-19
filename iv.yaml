@@ -1,7 +1,9 @@
 lenguaje: typeScript
 
-entidad: src/oferta.ts
+entidad: src/sources/oferta.ts
 
 automatizar: 
   fichero: package.json
-  orden: pnpm run
+  orden: pnpm
+
+test: src/test/pmv.test.ts
