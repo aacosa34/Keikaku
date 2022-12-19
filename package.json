@@ -2,7 +2,7 @@
 	"name": "keikaku",
 	"version": "1.0.0",
 	"scripts": {
-		"check": "tsc src/models/*.ts --target esnext --noEmit",
+		"check": "tsc src/*.ts --target esnext --noEmit",
 		"test": "jest"
 	},
 	"dependencies": {
