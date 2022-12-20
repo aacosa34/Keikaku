@@ -1,4 +1,4 @@
-enum puestoTrabajo{
+export enum puestoTrabajo{
   Programador = "Programador",
   DesarrolladorSoftware = "Desarrollador Software",
   IngenieroDevOps = "Ingeniero DevOps",
@@ -17,7 +17,7 @@ enum puestoTrabajo{
 
 }
 
-enum nivelIdioma{
+export enum nivelIdioma{
   A1 = "A1",
   A2 = "A2",
   B1 = "B1",
@@ -26,13 +26,13 @@ enum nivelIdioma{
   C2 = "C2"
 }
 
-type Experiencia={
+export type Experiencia={
   [key: string]: puestoTrabajo|number;
   puesto : puestoTrabajo;
   tiempo: number;
 }
 
-type Idioma={
+export type Idioma={
   [key: string]: string|nivelIdioma;
   idioma: string;
   nivel: nivelIdioma;
@@ -48,6 +48,5 @@ export class Curriculum{
     this.estudios = est;
     this.idiomas = idiomas;
   }
-  
 }
 

@@ -4,4 +4,6 @@ entidad: src/oferta.ts
 
 automatizar: 
   fichero: package.json
-  orden: pnpm run
+  orden: pnpm
+
+test: test/pmv.test.ts

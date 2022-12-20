@@ -8,6 +8,8 @@
   > - Las ofertas de empleo
 
 - [[M1] Código de clase o clases que implemente/n la lógica de negocio necesaria para buscar en los currículums la información relevante en función de la oferta de empleo a la que va dirigido.](https://github.com/aacosa34/Keikaku/milestone/6)
+  > Implementación de la lógica de negocio a partir de las estructuras de datos creadas en el M0.
+  > Para considerar como completado este milestone, se deben haber hecho test para comprobar que todo funciona como se espera según la lógica de negocio.
 
 - [[M2] Implementación de un API que permita obtener los datos contenidos en los currículums de aquella/s persona/s mejor cualificada/s.](https://github.com/aacosa34/Keikaku/milestone/9)
   > A partir de los datos que conocemos sobre todos los currículums de las personas que aplican a la oferta de trabajo, implementar un API que devuelva (ordenados por cantidad de criterios definidos en M1 encontrados en los CVs) los datos de contacto de todos ellos.
