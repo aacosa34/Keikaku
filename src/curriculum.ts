@@ -26,13 +26,13 @@ export enum nivelIdioma{
   C2 = "C2"
 }
 
-type Experiencia={
+export type Experiencia={
   [key: string]: puestoTrabajo|number;
   puesto : puestoTrabajo;
   tiempo: number;
 }
 
-type Idioma={
+export type Idioma={
   [key: string]: string|nivelIdioma;
   idioma: string;
   nivel: nivelIdioma;
